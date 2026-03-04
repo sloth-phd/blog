@@ -1,25 +1,18 @@
 # Site settings
 title: Blog under construction
-  
+
 # URL settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourusername.github.io" 
+# Update this to match your folder name!
+baseurl: "/blog" 
+url: "https://sloth-phd.github.io" 
 
 # Navigation Links (The "Tabs")
 header_pages:
-  - index.md
+  - about.md
   - speech-ai.md
   - music.md
   - games.md
   - comics.md
-  - about.md
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-
-# Pagination (Optional: helps the home page look like a list)
-paginate: 5
-paginate_path: "/page:num/"
