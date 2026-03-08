@@ -1,18 +1,16 @@
 # Site settings
-title: Blog under construction
+title: Sloth PhD Blog
+baseurl: "/blog" # Important since your repo is named 'blog'
+url: "https://sloth-phd.github.io"
 
-# URL settings
-# Update this to match your folder name!
-baseurl: "/blog" 
-url: "https://sloth-phd.github.io" 
-
-# Navigation Links (The "Tabs")
+# This section creates your navigation menu
 header_pages:
   - about.md
-  - speech-ai.md
+  - food.md
+  - gaming.md
   - music.md
-  - games.md
-  - comics.md
+  - speech-science.md
 
-# Build settings
 theme: minima
+plugins:
+  - jekyll-feed
