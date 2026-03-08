@@ -1,16 +1,13 @@
-# Site settings
 title: Sloth PhD Blog
-baseurl: "/blog" # Important since your repo is named 'blog'
+baseurl: "/blog"
 url: "https://sloth-phd.github.io"
 
-# This section creates your navigation menu
+# This defines the tabs in your top navigation
 header_pages:
   - about.md
-  - food.md
-  - gaming.md
-  - music.md
-  - speech-science.md
+  - speech-science/index.md
+  - food/index.md
+  - gaming/index.md
+  - music/index.md
 
 theme: minima
-plugins:
-  - jekyll-feed
